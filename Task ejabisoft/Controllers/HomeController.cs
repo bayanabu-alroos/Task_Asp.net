@@ -91,7 +91,7 @@ namespace Task_ejabisoft.Controllers
                 ModelState.AddModelError("", "An unexpected error occurred while creating the job.");
             }
             TempData["SuccessMessage"] = "The Create New Employee is successful!";
-            return RedirectToAction("Index");
+            return Json(new { success = true, message = "The Create New Employee is successful!" });
         }
         [HttpPost]
         public async Task<IActionResult> CreateEmployeeJobs(EmployeeJobCreateViewModel employeeJob)
@@ -124,7 +124,7 @@ namespace Task_ejabisoft.Controllers
             }
 
             TempData["SuccessMessage"] = "The Create New Employee Job was successful!";
-            return RedirectToAction("EmployeeJobs");
+            return Json(new { success = true, message = "The Create New Employee Job was successful!" });
         }
 
 
@@ -162,7 +162,7 @@ namespace Task_ejabisoft.Controllers
                 ModelState.AddModelError("", "An unexpected error occurred while updating the Employee.");
             }
             TempData["SuccessMessage"] = "The Employee has been updated successfully!";
-            return RedirectToAction("Index");
+            return Json(new { success = true, message = "The Deactivate Job has been successfully!" });
         }
         [HttpPost]
         [Route("/DeletedEmployee")]
@@ -180,7 +180,8 @@ namespace Task_ejabisoft.Controllers
             _context.Update(employee);
             await _context.SaveChangesAsync();
             TempData["SuccessMessage"] = "The Employee has been Deleted successfully!";
-            return RedirectToAction("Index");
+            return Json(new { success = true, message = "The Employee has been Deleted successfully!" });
+
         }
         [HttpPost]
         [Route("/ActivateJobEmployee")]
@@ -196,9 +197,9 @@ namespace Task_ejabisoft.Controllers
             jobEmployee.UpdatDate = DateTime.Now;
             _context.EmployeeJobs.Update(jobEmployee);
             await _context.SaveChangesAsync();
-
             TempData["SuccessMessage"] = "The Activate Job has been successfully!";
-            return RedirectToAction("Index");
+
+            return Json(new { success = true, message = "The Activate Job has been successfully!" });
         }
 
         [HttpPost]
@@ -215,9 +216,9 @@ namespace Task_ejabisoft.Controllers
             jobEmployee.UpdatDate = DateTime.Now;
             _context.EmployeeJobs.Update(jobEmployee);
             await _context.SaveChangesAsync();
-
             TempData["SuccessMessage"] = "The Deactivate Job has been successfully!";
-            return RedirectToAction("Index");
+
+            return Json(new { success = true, message = "The Deactivate Job has been successfully!" });
         }
 
 

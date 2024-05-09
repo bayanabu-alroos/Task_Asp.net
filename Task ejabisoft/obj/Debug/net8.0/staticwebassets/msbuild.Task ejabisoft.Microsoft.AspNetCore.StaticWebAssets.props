@@ -64,6 +64,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Image\2840153c-e578-46f7-bd63-7f49be7a438c_Screenshot 2024-03-21 181815.png))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Image\46345108-0daa-41c1-b69d-93f9bda864f2_Screenshot 2024-03-06 201627.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>Task ejabisoft</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Task ejabisoft</BasePath>
+      <RelativePath>Image/46345108-0daa-41c1-b69d-93f9bda864f2_Screenshot 2024-03-06 201627.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Image\46345108-0daa-41c1-b69d-93f9bda864f2_Screenshot 2024-03-06 201627.png))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Image\56164e9d-1d20-4bbc-bb78-1df5e76d1bfb_Screenshot 2024-03-06 201627.png))">
       <SourceType>Package</SourceType>
       <SourceId>Task ejabisoft</SourceId>
@@ -79,6 +95,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Image\56164e9d-1d20-4bbc-bb78-1df5e76d1bfb_Screenshot 2024-03-06 201627.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Image\6fb98251-e414-4b1a-bd44-220c5ba0c928_Screenshot 2024-04-03 170112.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>Task ejabisoft</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Task ejabisoft</BasePath>
+      <RelativePath>Image/6fb98251-e414-4b1a-bd44-220c5ba0c928_Screenshot 2024-04-03 170112.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Image\6fb98251-e414-4b1a-bd44-220c5ba0c928_Screenshot 2024-04-03 170112.png))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Image\87eb8752-8035-4fd2-a988-bcde90a543f4_WhatsApp Image 2024-05-08 at 4.17.22 PM.jpeg))">
       <SourceType>Package</SourceType>
@@ -111,6 +143,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Image\88e58605-d803-47fe-8193-a1329be9e4c3_Screenshot 2024-02-21 213653.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Image\9a0e87c1-9d19-493d-860b-c7f4751f7dbf_Screenshot 2024-05-08 111742.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>Task ejabisoft</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Task ejabisoft</BasePath>
+      <RelativePath>Image/9a0e87c1-9d19-493d-860b-c7f4751f7dbf_Screenshot 2024-05-08 111742.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Image\9a0e87c1-9d19-493d-860b-c7f4751f7dbf_Screenshot 2024-05-08 111742.png))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\js\site.js))">
       <SourceType>Package</SourceType>

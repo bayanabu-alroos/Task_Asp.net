@@ -1,4 +1,7 @@
 ﻿
+
+
+
 $(document).ready(function () {
 
     $('.activateEJBtn, .deactivateEJBtn').click(function () {
@@ -8,16 +11,21 @@ $(document).ready(function () {
         $.ajax({
             url: actionUrl,
             type: 'POST',
-            data: { jobEmployeeId: jobEmployeeId }, // Corrected parameter name
+            data: { jobEmployeeId: jobEmployeeId },
             success: function (response) {
-                response
+                if (response.success) {
+                    alert(response.message); // Show success message
+                } else {
+                    alert("Operation failed: " + response.message); // Show error message
+                }
+                location.reload();
+
             },
             error: function (xhr, status, error) {
-                console.error(xhr.responseText);
+                console.error(error);
             }
         });
     });
-
     $('.activateBtn, .deactivateBtn').click(function () {
         var jobId = $(this).data('job-id');
         var actionUrl = $(this).hasClass('activateBtn') ? '/Job/ActivateJob' : '/Job/DeactivateJob';
@@ -43,6 +51,11 @@ $(document).ready(function () {
             type: 'POST',
             data: { employeeId: employeeId }, // Corrected key name to match the parameter name in the controller action
             success: function (response) {
+                if (response.success) {
+                    alert(response.message); // Show success message
+                } else {
+                    alert("Operation failed: " + response.message); // Show error message
+                }
                 location.reload();
             },
             error: function (xhr, status, error) {
