@@ -9,63 +9,63 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Task_ejabisoft
 build_property.RootNamespace = Task_ejabisoft
-build_property.ProjectDir = C:\Users\bayan\Desktop\New folder\Task ejabisoft\Task ejabisoft\
+build_property.ProjectDir = C:\Users\bayan\Desktop\Task_Asp.net\Task ejabisoft\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\bayan\Desktop\New folder\Task ejabisoft\Task ejabisoft
+build_property.MSBuildProjectDirectory = C:\Users\bayan\Desktop\Task_Asp.net\Task ejabisoft
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/bayan/Desktop/New folder/Task ejabisoft/Task ejabisoft/Views/Home/Create.cshtml]
+[C:/Users/bayan/Desktop/Task_Asp.net/Task ejabisoft/Views/Home/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bayan/Desktop/New folder/Task ejabisoft/Task ejabisoft/Views/Home/EmployeeJobs.cshtml]
+[C:/Users/bayan/Desktop/Task_Asp.net/Task ejabisoft/Views/Home/EmployeeJobs.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFbXBsb3llZUpvYnMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bayan/Desktop/New folder/Task ejabisoft/Task ejabisoft/Views/Home/Index.cshtml]
+[C:/Users/bayan/Desktop/Task_Asp.net/Task ejabisoft/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bayan/Desktop/New folder/Task ejabisoft/Task ejabisoft/Views/Home/Privacy.cshtml]
+[C:/Users/bayan/Desktop/Task_Asp.net/Task ejabisoft/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bayan/Desktop/New folder/Task ejabisoft/Task ejabisoft/Views/Home/Update.cshtml]
+[C:/Users/bayan/Desktop/Task_Asp.net/Task ejabisoft/Views/Home/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxVcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bayan/Desktop/New folder/Task ejabisoft/Task ejabisoft/Views/Job/Create.cshtml]
+[C:/Users/bayan/Desktop/Task_Asp.net/Task ejabisoft/Views/Job/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bayan/Desktop/New folder/Task ejabisoft/Task ejabisoft/Views/Job/Index.cshtml]
+[C:/Users/bayan/Desktop/Task_Asp.net/Task ejabisoft/Views/Job/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bayan/Desktop/New folder/Task ejabisoft/Task ejabisoft/Views/Job/Update.cshtml]
+[C:/Users/bayan/Desktop/Task_Asp.net/Task ejabisoft/Views/Job/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iXFVwZGF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bayan/Desktop/New folder/Task ejabisoft/Task ejabisoft/Views/Shared/Error.cshtml]
+[C:/Users/bayan/Desktop/Task_Asp.net/Task ejabisoft/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bayan/Desktop/New folder/Task ejabisoft/Task ejabisoft/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/bayan/Desktop/Task_Asp.net/Task ejabisoft/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bayan/Desktop/New folder/Task ejabisoft/Task ejabisoft/Views/_ViewImports.cshtml]
+[C:/Users/bayan/Desktop/Task_Asp.net/Task ejabisoft/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bayan/Desktop/New folder/Task ejabisoft/Task ejabisoft/Views/_ViewStart.cshtml]
+[C:/Users/bayan/Desktop/Task_Asp.net/Task ejabisoft/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bayan/Desktop/New folder/Task ejabisoft/Task ejabisoft/Views/Shared/_Layout.cshtml]
+[C:/Users/bayan/Desktop/Task_Asp.net/Task ejabisoft/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-97ukvqv334

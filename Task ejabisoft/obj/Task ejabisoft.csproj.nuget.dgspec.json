@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bayan\\Desktop\\New folder\\Task ejabisoft\\Task ejabisoft\\Task ejabisoft.csproj": {}
+    "C:\\Users\\bayan\\Desktop\\Task_Asp.net\\Task ejabisoft\\Task ejabisoft.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bayan\\Desktop\\New folder\\Task ejabisoft\\Task ejabisoft\\Task ejabisoft.csproj": {
+    "C:\\Users\\bayan\\Desktop\\Task_Asp.net\\Task ejabisoft\\Task ejabisoft.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bayan\\Desktop\\New folder\\Task ejabisoft\\Task ejabisoft\\Task ejabisoft.csproj",
+        "projectUniqueName": "C:\\Users\\bayan\\Desktop\\Task_Asp.net\\Task ejabisoft\\Task ejabisoft.csproj",
         "projectName": "Task ejabisoft",
-        "projectPath": "C:\\Users\\bayan\\Desktop\\New folder\\Task ejabisoft\\Task ejabisoft\\Task ejabisoft.csproj",
+        "projectPath": "C:\\Users\\bayan\\Desktop\\Task_Asp.net\\Task ejabisoft\\Task ejabisoft.csproj",
         "packagesPath": "C:\\Users\\bayan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bayan\\Desktop\\New folder\\Task ejabisoft\\Task ejabisoft\\obj\\",
+        "outputPath": "C:\\Users\\bayan\\Desktop\\Task_Asp.net\\Task ejabisoft\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\bayan\\AppData\\Roaming\\NuGet\\NuGet.Config",
