@@ -1,0 +1,52 @@
+﻿<div class="modal fade" id="CreateModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Create New Employee </h1>
+                <button type="button" class="btn btn-link" data-bs-dismiss="modal" aria-label="Close">X</button>
+            </div>
+            <form asp-action="Create" method="post" enctype="multipart/form-data">
+                <div class="modal-body">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Name:</label>
+                        <input type="text" class="form-control" id="name" name="Name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="birthdate" class="form-label">Birthdate:</label>
+                        <input type="date" class="form-control" id="birthdate" name="Birthdate" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="phone" class="form-label">Phone:</label>
+                        <input type="tel" class="form-control" id="phone" name="Phone" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="employmentDate" class="form-label">Employment Date:</label>
+                        <input type="date" class="form-control" id="employmentDate" name="Employment_Date" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="underProbation" class="form-label">Under Probation:</label>
+                        <input type="checkbox" class="form-check-input" id="underProbation" name="Under_Probation">
+                    </div>
+                    <div class="mb-3">
+                        <label for="governorate" class="form-label">Governorate:</label>
+                        <select type="text" id="governorate" name="Governorate" class="form-control">
+                            <option></option>
+                                <option value="0"> Amman</option>
+                                <option value="1">Irbid</option>
+                                <option value="2">Mafraq</option>
+                      </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="imageFile" class="form-label">Image:</label>
+                        <input type="file" class="form-control" id="imageFile" name="imageFile" accept="image/*" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+            </form>
+
+  
+        </div>
+    </div>
+</div
+
+

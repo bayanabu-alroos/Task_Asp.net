@@ -1,0 +1,115 @@
+﻿@model IEnumerable<Employee>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+<div class="container-fluid">
+    <div class="container">
+
+        <div class="row">
+            <!-- Left side -->
+            <div class="col-lg-12">
+                <button class="btn btn-outline-success btn-sm mb-3 mt-3 mx-6 px-3 mb-0"
+                        data-bs-toggle="modal"
+                        data-bs-target="#CreateModal"
+                        type="button">
+                    Add Employee
+                </button>
+                @Html.Partial("Create")
+                <!-- Basic information -->
+                <div class="card mb-4">
+                    @if (TempData["SuccessMessage"] != null)
+                    {
+                        <div class="alert alert-success mt-5 alert-dismissible col-10 m-auto mb-3">
+                            @TempData["SuccessMessage"]
+                        </div>
+                    }
+                    
+                    <div class="card-body ">
+                        <div class="col-lg-6 float-right">
+                            <form method="get">
+                                <div class="input-group mb-3">
+                                    <input type="text" class="form-control" name="searchTerm" placeholder="Search by employee or job name" value="@ViewBag.SearchTerm">
+                                    <button class="btn btn-primary" type="submit">Search</button>
+                                </div>
+                            </form>
+                        </div>
+                        <table class="table table-striped-columns mt-4">
+                            <thead>
+                                <tr>
+                                    <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
+                                        #
+                                    </th>
+                                    <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
+                                        Image
+                                    </th>
+                                    <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">
+                                        Name
+                                    </th>
+                                    <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
+                                        Phone
+                                    </th>
+                                    <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
+                                        Governorate
+                                    </th>
+                                    <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
+                                        Job
+                                    </th>
+                                    <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">
+                                        Status
+                                    </th>
+                                    <th class="text-secondary opacity-7">Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <td class="align-middle text-center text-sm" id="itemId">@item.Id</td>
+                                        <td class="align-middle text-center text-sm"><img src="@Url.Content(item.Personal_Photo)" alt="avatar" class="rounded-circle img-fluid" style="width: 150px;"></td>
+                                        <td class="align-middle text-center text-sm" id="itemName">@item.Name</td>
+                                        <td class="align-middle text-center text-sm">
+                                            @item.Phone
+                                        </td>
+                                        <td class="align-middle text-center text-sm">
+                                            @item.Governorate
+                                        </td>
+                                        <td class="align-middle text-center text-sm">
+                                            @String.Join(", ", item.EmployeeJobs.Select(ej => ej.Job.Name))
+                                        </td>
+                                        <td class="align-middle text-center text-sm">
+                                            @Html.Raw(item.IsDeleted ? "<span class='badge bg-danger ms-1'>Deactivate</span>" : "<span class='badge bg-success ms-1'>Activate</span>")
+                                        </td>
+                                        <td class="align-middle">
+                                            <!-- Button to trigger the modal -->
+                                            <button class="btn btn-outline-warning btn-sm mb-3 mt-3 mx-6 px-3 mb-0" data-job-id="@item.Id" data-image="@Url.Content(item.Personal_Photo)"
+                                                    data-employment_date="@item.Employment_Date" data-name="@item.Name" data-birthdate="@item.Birthdate"
+                                                    data-governorate="@item.Governorate" data-phone="@item.Phone" data-under_probation="@item.Under_Probation"
+                                                    data-bs-toggle="modal"
+                                                    data-bs-target="#updateEmployeeModal"
+                                                    type="button" >
+                                                Update Employee
+                                            </button>
+
+                                            <button class="deleteBtn btn btn-outline-danger" type="submit" data-job-id="@item.Id">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+                                                    <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5M8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5m3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0" />
+                                                </svg>
+                                            </button>
+                                        </td>
+                                    </tr>
+                                }
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+    </div>
+</div>
+@Html.Partial("Update")
+@*
+    Scripts
+*@

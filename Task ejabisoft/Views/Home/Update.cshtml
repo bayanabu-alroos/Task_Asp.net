@@ -1,0 +1,55 @@
+﻿
+<div class="modal fade" id="updateEmployeeModal" tabindex="-1" aria-labelledby="updateEmployeeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="updateEmployeeModalLabel">Update Employee</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form id="updateEmployeeForm" method="post" action="/Update">
+                <div class="modal-body">
+                    @* Form fields for updating employee *@
+                    <input type="hidden" id="employeeId" name="Id" />
+                    <div class="mb-3">
+                        <label for="employeeName" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="employeeName" name="Name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="birthdate" class="form-label">Birthdate</label>
+                        <input type="date" class="form-control" id="birthdate" name="Birthdate" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="phone" class="form-label">Phone</label>
+                        <input type="tel" class="form-control" id="phone" name="Phone" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="employmentDate" class="form-label">Employment Date</label>
+                        <input type="date" class="form-control" id="employmentDate" name="Employment_Date" required>
+                    </div>
+                    <div class="mb-3">
+                        <input type="checkbox" class="form-check-input" id="underProbation" name="Under_Probation">
+                        <label for="underProbation" class="form-label">Under Probation</label>
+                    </div>
+                    <div class="mb-3">
+                        <label for="governorate" class="form-label">Governorate</label>
+                        <select class="form-control" id="governorate" name="Governorate">
+                            <option value="0">Amman</option>
+                            <option value="1">Irbid</option>
+                            <option value="2">Mafraq</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="imageFile" class="form-label">Image</label>
+                        <input type="file" class="form-control" id="imageFile" name="imageFile" accept="image/*">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-primary">Update Employee</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
