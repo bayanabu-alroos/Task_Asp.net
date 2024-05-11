@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Task ejabisoft")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d585267c4e9b4db320b7fa459b211aa151423ed8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3f91143b77b4f62b5b157e6d8ea8a6ae27079a5c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Task ejabisoft")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Task ejabisoft")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
